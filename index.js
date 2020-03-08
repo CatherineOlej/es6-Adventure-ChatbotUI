@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /**
  * Catherine Olejarczyk
  * Assignment 3 - Chat UI
@@ -10,11 +9,10 @@ import express from 'express';
 import bodyParser  from "body-parser";
 import Adventure from "./Adventure";
 
-=======
+
 const express = require('express');
 const bodyParser = require("body-parser");
 const Game = require("./Game");
->>>>>>> 0fb4055715cfeb40ad20de0e3d50ea9410409728
 
 // Create a new express application instance
 const app = express();
