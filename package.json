@@ -26,5 +26,6 @@
   "homepage": "https://github.com/CatherineOlej/es6-Adventure-ChatbotUI#readme",
   "dependencies": {
     "express": "*"
-  }
+  },
+  "devDependencies": {}
 }
