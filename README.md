@@ -4,8 +4,8 @@ A chatbot written in es6 and vs6 for twilio and testing on the web. The importan
 
 # Get started
 
-This project is also available on <a href="https://chatbot-adventure.herokuapp.com/" target="_blank">HEROKU</a> 
-git clone: https://github.com/CatherineOlej/es6-Adventure-ChatbotUI.git
+* This project is also available on <a href="https://chatbot-adventure.herokuapp.com/" target="_blank">HEROKU</a> 
+* git clone: https://github.com/CatherineOlej/es6-Adventure-ChatbotUI.git
 
 ## Building tools 
 
