@@ -2,11 +2,15 @@
   "name": "es6test",
   "version": "1.0.0",
   "description": "This is a chance to test es6 with node 9.3",
-  "main": "index.js",
+  "main": "import.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "package": "^1.0.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "node index.js"
+    "start": "node import.js",
+    "dev": "node import.js"
   },
   "repository": {
     "type": "git",
@@ -24,8 +28,6 @@
     "url": "https://github.com/CatherineOlej/es6-Adventure-ChatbotUI/issues"
   },
   "homepage": "https://github.com/CatherineOlej/es6-Adventure-ChatbotUI#readme",
-  "dependencies": {
-    "express": "*"
-  },
+  
   "devDependencies": {}
 }
