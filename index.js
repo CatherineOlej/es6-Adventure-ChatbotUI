@@ -48,8 +48,8 @@ app.post("/sms", (req, res) =>{
 
 app.listen(port, () => console.log('Example app listening on port ' + port + '!'));*/
 
-var express = require('express');
-var app = express();
+//var express = require('express');
+//var app = express();
 
 app.use(express.static(__dirname + '/www'));
 
