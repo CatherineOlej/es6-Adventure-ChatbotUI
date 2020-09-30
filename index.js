@@ -5,14 +5,14 @@
  * A chatbot written in es6 and vs6 for twilio and testing on the web
  */
 
-import express from 'express';
+/*import express from 'express';
 import bodyParser  from "body-parser";
-import Adventure from "./Adventure";
+import Adventure from "./Adventure";*/
 
 
 const express = require('express');
 const bodyParser = require("body-parser");
-const Game = require("./Game");
+const Game = require("./Adventure");
 
 // Create a new express application instance
 const app = express();
@@ -28,7 +28,7 @@ let oGames = {};
 app.post("/sms", (req, res) =>{
     let sFrom = req.body.From || req.body.from;
     if(!oGames.hasOwnProperty(sFrom)){
-        oGames[sFrom] = new Adventure();
+        oGames[sFrom] = new Game();
     }
     let sMessage = req.body.Body|| req.body.body;
     let aReply = oGames[sFrom].makeAMove(sMessage);

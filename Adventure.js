@@ -22,8 +22,8 @@ const GameState = Object.freeze({
     WALKIMG: Symbol("walking"),
     SCREAM: Symbol("scream")
 });
-
-export default class Game{
+//export default class Game
+module.exports = class Game{
     constructor(){
         this.stateCur = GameState.WELCOMING;
     }
