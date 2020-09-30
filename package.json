@@ -2,8 +2,8 @@
   "name": "es6test",
   "version": "1.0.0",
   "description": "This is a chance to test es6 with node 9.3",
-  "main": "index.js", 
-   "dependencies": {
+  "main": "index.js",
+  "dependencies": {
     "express": "^4.17.1"
   },
   "scripts": {
@@ -27,6 +27,5 @@
     "url": "https://github.com/CatherineOlej/es6-Adventure-ChatbotUI/issues"
   },
   "homepage": "https://github.com/CatherineOlej/es6-Adventure-ChatbotUI#readme",
-  
   "devDependencies": {}
 }
