@@ -18,7 +18,7 @@ const Game = require("./Adventure");
 const app = express();
 
 app.use(bodyParser.urlencoded({extended:true}));
-app.use(express.static(__dirname + "www"));
+app.use(express.static("www"));
 
 app.get("/users/:uname", (req, res) => {
     res.end("Hello " + req.params.uname);
@@ -48,3 +48,13 @@ var port = process.env.PORT || parseInt(process.argv.pop()) || 3000;
 
 app.listen(port, () => console.log('app listening on port ' + port));
 
+//var express = require('express');
+//var app = express();
+
+//app.use(express.static(__dirname + '/www'));
+
+/*var port = process.env.PORT || 3000;
+
+app.listen(port);
+
+console.log('working on port ' + port);*/
