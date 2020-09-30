@@ -48,13 +48,3 @@ var port = process.env.PORT || parseInt(process.argv.pop()) || 3000;
 
 app.listen(port, () => console.log('app listening on port ' + port));
 
-//var express = require('express');
-//var app = express();
-
-//app.use(express.static(__dirname + '/www'));
-
-/*var port = process.env.PORT || 3000;
-
-app.listen(port);
-
-console.log('working on port ' + port);*/
