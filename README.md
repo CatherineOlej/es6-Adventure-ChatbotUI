@@ -6,7 +6,7 @@ The objective for this assignment was to choose a theme to make simulations by m
 
 The adventure.js file is where the game simulations is embedded while the index.js manipulates the game simulation to play out. (see for yourselves) This functions using node.js
 
-This project is also available on HEROKU
+This project is also available on <a href="https://chatbot-adventure.herokuapp.com/" target="_blank">HEROKU</a> 
 
 
 
